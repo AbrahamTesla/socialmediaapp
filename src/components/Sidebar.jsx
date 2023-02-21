@@ -18,7 +18,7 @@ import {
 
 import React from 'react';
 
-export default function SideBar() {
+export default function SideBar({ theme, setTheme }) {
    return (
       <Box flex={1} p={2} sx={{ display: { xs: 'none', sm: 'block' } }}>
          <Box position={'fixed'}>
@@ -67,7 +67,11 @@ export default function SideBar() {
                   <ListItemButton component='a' href='#article'>
                      <ListItemIcon>
                         <Brightness6 />
-                        <Switch color='warning' />
+                        <Switch
+                           onChange={e =>
+                              setTheme(theme === 'light' ? 'dark' : 'light')
+                           }
+                        />
                      </ListItemIcon>
                   </ListItemButton>
                </ListItem>

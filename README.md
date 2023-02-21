@@ -1,6 +1,8 @@
 #Social Media App
-Front End
-Link: https://abrahamtesla.github.io/socialmediaapp/#settings
+Front End Design
+
+Link: https://abrahamtesla.github.io/socialmediaapp/
+
 ![alt text](https://github.com/AbrahamTesla/socialmediaapp/blob/master/src/image/BlogAppPicture.png)
 
 #Technology used
